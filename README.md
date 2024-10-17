@@ -6,7 +6,7 @@ To write a python program for creating File Transfer using TCP Sockets Links
 2. Create a socket connection using socket module.
 3. Send the message to write into the file to the client file.
 4. Open the file and then send it to the client in byte format.
-5. In the client side receive the file from server and then write the content into it.
+5. In the client side receive the file from server and then write the content into it. 
 ## PROGRAM
 ### CLIENT 
 ```
@@ -57,10 +57,9 @@ while True:
     conn.close()
 ```
 
-## OUPUT
+## OUPUT:
 ### CLIENT
 ![Screenshot 2024-04-03 112918](https://github.com/gowshik145/3c.FILE_TRANSFER_USING_TCP_SOCKETS/assets/155086127/2a6f5e7b-b36d-4aef-beb7-7d1f073cdbfb)
-
 
 ### SERVER
 ![Screenshot 2024-04-03 112929](https://github.com/gowshik145/3c.FILE_TRANSFER_USING_TCP_SOCKETS/assets/155086127/93d5eb57-1ffb-497d-87ec-adb1c3314799)
